@@ -1,0 +1,24 @@
+# Local MRI data, downloaded scans & preprocessing caches
+/data/
+Task01_BrainTumour/
+.cache_*/
+*.nii
+*.nii.gz
+*.npy
+*.npz
+
+# Training outputs & model checkpoints
+/checkpoints/
+/runs/
+*.pt
+*.pth
+
+# Local Python environment and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS folder metadata
+.DS_Store
